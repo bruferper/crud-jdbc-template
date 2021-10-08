@@ -1,0 +1,8 @@
+app:
+  datasource:
+    main:
+      driver-class-name: org.postgresql.Driver
+      jdbc-url: jdbc:postgresql://192.168.1.7:5432/crudjdbctemplate
+      username: postgres
+      password: '1234'
+      pool-size: 5
